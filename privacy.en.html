@@ -21,7 +21,7 @@
   </head>
   <body>
     <h1>MyWardrobe — Privacy Policy</h1>
-    <p class="updated">Last updated: 8 September 2026</p>
+    <p class="updated">Last updated: 13 October 2026</p>
 
     <p>
       MyWardrobe is a mobile app that digitises your wardrobe and suggests
@@ -86,9 +86,23 @@
       no data is tracked or sold for advertising.
     </p>
 
-    <h2>3. About the body photo</h2>
+    <h2>3. About your photos and the body photo</h2>
+    <p>
+      The garment and body photos you upload, and the try-on images made from
+      them, are processed only to provide the service to you. They are never
+      used to train any AI model, never used for testing or research, and never
+      shown to other users. A try-on image leaves the app only when you tap
+      “Share”.
+    </p>
+    <p>
+      Photos are sent to a single AI provider, Google Gemini: garment photos
+      for tagging, your body photo and garments for generating try-on images.
+      Google does not use content sent to its paid API service to improve its
+      products or train models; it may keep a request for a limited time to
+      detect abuse.
+    </p>
     <ul>
-      <li>It is used only to show your own outfits on you.</li>
+      <li>Your body photo is used only to show your own outfits on you.</li>
       <li>It is sent to the AI provider solely to generate that image; it is not used to train any model.</li>
       <li>It is held in private storage that only your account can reach. Access is granted through short-lived signed links.</li>
       <li>You can delete it from inside the app at any time; the file itself is removed with it.</li>
@@ -104,9 +118,19 @@
         <td>Running the app</td>
       </tr>
       <tr>
-        <td>AI providers (Google Gemini, fal.ai)</td>
-        <td>Garment and body photos</td>
-        <td>Tagging and try-on image generation</td>
+        <td>Google (Gemini API)</td>
+        <td>Garment and body photos, outfit details</td>
+        <td>Tagging, outfit suggestions and try-on image generation</td>
+      </tr>
+      <tr>
+        <td>Anthropic (Claude API)</td>
+        <td>Only a written description of garments (e.g. “top, navy”) and any occasion note; no photos and no identity</td>
+        <td>Outfit suggestions when Gemini cannot be reached</td>
+      </tr>
+      <tr>
+        <td>Open-Meteo</td>
+        <td>Approximate location (coordinates rounded to two decimals), with no identity</td>
+        <td>Weather</td>
       </tr>
       <tr>
         <td>RevenueCat</td>
@@ -146,6 +170,7 @@
     <ul>
       <li><strong>Erasure:</strong> in the app, Profile → “Delete my account”. It is immediate and cannot be undone.</li>
       <li><strong>Deleting only the body photo:</strong> Profile → Body photo → Delete.</li>
+      <li><strong>Deleting try-on images:</strong> Today → My try-ons → Select. Delete one, several or all; the image itself is removed.</li>
       <li><strong>Anything else:</strong> <a href="mailto:emir.karabey1@hotmail.com">emir.karabey1@hotmail.com</a> — answered within 30 days at the latest.</li>
     </ul>
 

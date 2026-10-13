@@ -22,7 +22,7 @@
   </head>
   <body>
     <h1>MyWardrobe — Gizlilik Politikası</h1>
-    <p class="updated">Son güncelleme: 8 Eylül 2026</p>
+    <p class="updated">Son güncelleme: 13 Ekim 2026</p>
 
     <p>
       MyWardrobe, gardırobunu dijitalleştiren ve yapay zekâ ile kombin öneren bir
@@ -88,9 +88,24 @@
       reklam amacıyla izlenmez veya satılmaz.
     </p>
 
-    <h2>3. Vücut fotoğrafı hakkında</h2>
+    <h2>3. Fotoğrafların ve vücut fotoğrafı hakkında</h2>
+    <p>
+      Yüklediğin kıyafet ve vücut fotoğrafları ile üretilen deneme görselleri
+      yalnızca sana hizmet vermek için işlenir. Hiçbir yapay zekâ modelinin
+      eğitiminde kullanılmaz, test veya araştırma amacıyla kullanılmaz, başka
+      kullanıcılara gösterilmez. Bir deneme görseli uygulamadan yalnızca sen
+      “Paylaş”a bastığında çıkar.
+    </p>
+    <p>
+      Fotoğraflar yalnızca tek bir yapay zekâ sağlayıcısına, Google Gemini’ye
+      gönderilir: kıyafet fotoğrafları etiketleme için, vücut fotoğrafın ve
+      kıyafetlerin deneme görseli üretimi için. Google, ücretli API hizmetine
+      gönderilen içeriği ürünlerini geliştirmek veya model eğitmek için
+      kullanmaz; kötüye kullanımı tespit etmek amacıyla isteği sınırlı bir süre
+      saklayabilir.
+    </p>
     <ul>
-      <li>Yalnızca senin kombinlerini senin üzerinde göstermek için kullanılır.</li>
+      <li>Vücut fotoğrafın yalnızca senin kombinlerini senin üzerinde göstermek için kullanılır.</li>
       <li>Yapay zekâ sağlayıcısına yalnızca o görseli üretmek için gönderilir; model eğitiminde kullanılmaz.</li>
       <li>Özel (private) bir depolama alanında tutulur; yalnızca senin hesabın erişebilir. Görsellere erişim, kısa ömürlü imzalı bağlantılarla verilir.</li>
       <li>Uygulama içinden istediğin an silebilirsin; silindiğinde dosyanın kendisi de kaldırılır.</li>
@@ -106,9 +121,19 @@
         <td>Uygulamanın çalışması</td>
       </tr>
       <tr>
-        <td>Yapay zekâ sağlayıcıları (Google Gemini, fal.ai)</td>
-        <td>Kıyafet ve vücut fotoğrafları</td>
-        <td>Etiketleme ve deneme görseli üretimi</td>
+        <td>Google (Gemini API)</td>
+        <td>Kıyafet ve vücut fotoğrafları, kombin bilgileri</td>
+        <td>Etiketleme, kombin önerisi ve deneme görseli üretimi</td>
+      </tr>
+      <tr>
+        <td>Anthropic (Claude API)</td>
+        <td>Yalnızca kıyafetlerin yazılı tarifi (ör. “üst, lacivert”) ve varsa etkinlik notu; fotoğraf ve kimlik bilgisi gönderilmez</td>
+        <td>Gemini’ye ulaşılamadığında kombin önerisi</td>
+      </tr>
+      <tr>
+        <td>Open-Meteo</td>
+        <td>Yaklaşık konum (iki ondalık basamağa yuvarlanmış koordinat), kimlik bilgisi olmadan</td>
+        <td>Hava durumu</td>
       </tr>
       <tr>
         <td>RevenueCat</td>
@@ -147,6 +172,7 @@
     <ul>
       <li><strong>Silme:</strong> Uygulamada Profil → “Hesabımı sil”. İşlem geri alınamaz ve anında yürütülür.</li>
       <li><strong>Yalnızca vücut fotoğrafının silinmesi:</strong> Profil → Vücut fotoğrafı → Sil.</li>
+      <li><strong>Deneme görsellerinin silinmesi:</strong> Bugün → Denemelerim → Seç. Tek tek, seçerek veya tümünü silebilirsin; görselin kendisi de kaldırılır.</li>
       <li><strong>Diğer talepler:</strong> <a href="mailto:emir.karabey1@hotmail.com">emir.karabey1@hotmail.com</a> — en geç 30 gün içinde yanıtlanır.</li>
     </ul>
 
